@@ -5,5 +5,5 @@ Team members:
 - Van Dan Phan
 - Wenyang Zhang
 
-We experiment different type of model LDA-QDA and SVM and Tree-Based. We found the highest accuracy from three models: hyper-tuned boosting model, SVM with power transformation, Ensembling svm rf and logistic regression.
-And then we use ensemble approach to combine the result from these three model to predict final result.
+We experiment different type of model LDA-QDA and SVM and Tree-Based. These model scripts are put in the respective folders. We used voting strategy to combine the result from 6 models that have the highest accuracy. The script for final result and data are put in folder "Final-Result".
+
